@@ -3,4 +3,4 @@ This repository includes all the practice questions, my answer code and example 
 
 ## Coding practice
 1. Two sum: https://github.com/YikiSu/interview_preparation/blob/main/coding_practice/two_sum.md
-2. Valid parentheses: https://github.com/YikiSu/interview_preparation/tree/main/coding_practice
+2. Valid parentheses: https://github.com/YikiSu/interview_preparation/blob/main/coding_practice/valid_parenthese.md
