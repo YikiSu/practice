@@ -6,3 +6,4 @@ This repository includes all the practice questions, my answer code and example 
 2. Valid parentheses: https://github.com/YikiSu/interview_preparation/blob/main/coding_practice/valid_parenthese.md
 3. Merge two sorted list (linked list): https://github.com/YikiSu/interview_preparation/blob/main/coding_practice/merge_two_sorted_lists.md
 4. Best time to buy and sell stock: https://github.com/YikiSu/interview_preparation/blob/main/coding_practice/best_time_to_buy_and_sell_stock.md
+5. Valid palindrome: https://github.com/YikiSu/interview_preparation/blob/main/coding_practice/valid_palindrome.md
