@@ -9,3 +9,4 @@ This repository includes all the practice questions, my answer code and example 
 5. Valid palindrome: https://github.com/YikiSu/interview_preparation/blob/main/coding_practice/valid_palindrome.md
 6. Invert binary tree: https://github.com/YikiSu/interview_preparation/blob/main/coding_practice/invert_binary_tree.md
 7. Valid anagram: https://github.com/YikiSu/practice/blob/main/coding_practice/valid_anagram.md
+8. Binary search: https://github.com/YikiSu/practice/blob/main/coding_practice/binary_search.md
