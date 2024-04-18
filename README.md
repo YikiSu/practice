@@ -11,3 +11,4 @@ This repository includes all the practice questions, my answer code and example 
 7. Valid anagram: https://github.com/YikiSu/practice/blob/main/coding_practice/valid_anagram.md
 8. Binary search: https://github.com/YikiSu/practice/blob/main/coding_practice/binary_search.md
 9. Implement queue using stacks: https://github.com/YikiSu/practice/blob/main/coding_practice/implement_queue_using_stacks.md
+10. Ransom note: https://github.com/YikiSu/practice/blob/main/coding_practice/ransom_note.md
