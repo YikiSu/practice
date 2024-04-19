@@ -12,3 +12,4 @@ This repository includes all the practice questions, my answer code and example 
 8. Binary search: https://github.com/YikiSu/practice/blob/main/coding_practice/binary_search.md
 9. Implement queue using stacks: https://github.com/YikiSu/practice/blob/main/coding_practice/implement_queue_using_stacks.md
 10. Ransom note: https://github.com/YikiSu/practice/blob/main/coding_practice/ransom_note.md
+11. Longest palindrome: https://github.com/YikiSu/practice/blob/main/coding_practice/longest_palindrome.md
