@@ -15,3 +15,4 @@ This repository includes all the practice questions, my answer code and example 
 11. Longest palindrome: https://github.com/YikiSu/practice/blob/main/coding_practice/longest_palindrome.md
 12. Longest substring without repeat: https://github.com/YikiSu/practice/blob/main/coding_practice/longest_substring_without_repeat.md
 13. Evaluation reverse polish notation: https://github.com/YikiSu/practice/blob/main/coding_practice/evaluate_reverse_polish_notation.md
+14. Merge strings alternately: https://github.com/YikiSu/practice/blob/main/coding_practice/merging_strings_alternately.md
