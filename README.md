@@ -16,3 +16,7 @@ This repository includes all the practice questions, my answer code and example 
 12. Longest substring without repeat: https://github.com/YikiSu/practice/blob/main/coding_practice/longest_substring_without_repeat.md
 13. Evaluation reverse polish notation: https://github.com/YikiSu/practice/blob/main/coding_practice/evaluate_reverse_polish_notation.md
 14. Merge strings alternately: https://github.com/YikiSu/practice/blob/main/coding_practice/merging_strings_alternately.md
+15. Greatest common divisor of string: https://github.com/YikiSu/practice/blob/main/coding_practice/greatest_common_divisor_of_string.md
+16. Kids with the greatest number of candies: https://github.com/YikiSu/practice/blob/main/coding_practice/kids_with_the_greatest_number_of_candies.md
+17. Can place flowers: https://github.com/YikiSu/practice/blob/main/coding_practice/can_place_flowers.md
+18. Reverse vowels of a string: https://github.com/YikiSu/practice/blob/main/coding_practice/reverse_vowels_of_a_string.md
