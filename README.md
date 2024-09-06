@@ -23,3 +23,4 @@ This repository includes all the practice questions, my answer code and example 
 19. Reverse words in a string: https://github.com/YikiSu/practice/blob/main/coding_practice/reverse_words_in_a_string.md
 20. Product of arracy except self: https://github.com/YikiSu/practice/blob/main/coding_practice/product_of_array_except_self.md
 21. Pascal's Triangle: https://leetcode.com/problems/pascals-triangle/
+22. Best Time to Buy and Sell Stock: https://github.com/YikiSu/practice/blob/main/coding_practice/Best%20Time%20to%20Buy%20and%20Sell%20Stock.md
