@@ -23,7 +23,7 @@ Input: arr = [-3,0,1,-3,1,1,1,-3,10,0]
 - 1 <= arr.length <= 1000
 - -1000 <= arr[i] <= 1000
 
-# My solution (follow instructions of others)
+# My solution 
 ```pythonimport collections
 class Solution(object):
     def uniqueOccurrences(self, arr):
