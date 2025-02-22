@@ -5,3 +5,4 @@
 5. https://engineeringblog.yelp.com/2020/02/accelerating-retention-experiments-with-partially-observed-data.html
 6. https://engineeringblog.yelp.com/2023/04/yelp-content-as-embeddings.html
 7. https://engineeringblog.yelp.com/2022/04/beyond-matrix-factorization-using-hybrid-features-for-user-business-recommendations.html (recommendation system)
+8. https://docs.google.com/document/d/e/2PACX-1vRGlEIpr4GtuzG0szge3-4Yz8Tb4hlW-pdWrgRMH7O8PWGyLs6SbwM9wq4DHFrD7NqeJI6c0FbxxHr1/pub
