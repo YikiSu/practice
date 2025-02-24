@@ -34,6 +34,8 @@ How would you design a machine learning system to recommend the top 10 restauran
 # Evaluation metrics
 1. Offline metrics
    - Precision@K, Recall@K (for ranking quality)
+     - Precision@k: $$\frac{relevant\ items\ in\ top\ k}{k}$$
+     - Recall@k: $$\frac{relevant\ items\ in\ top\ k}{total\ relevant\ items}$$
    - diversity and novelty
 2. Online metrics
    - click through rate
