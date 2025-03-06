@@ -45,3 +45,11 @@
 - If you need a simple, standardized approach without prior assumptions.
 - If decision-makers are familiar with traditional p-values and confidence intervals.
 - If you have a large dataset and can run a fixed-duration test without peeking.
+
+
+# A/B testing Assumptions
+1. Randomization to ensure no systematic bias
+2. Independence: users' behaviours are independent of each other
+3. Sufficient sample size to ensure test power
+4. No selection bias
+5. Correct statistical test
