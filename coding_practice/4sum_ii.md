@@ -37,6 +37,7 @@ n == nums4.length\
 # My solution (follows hints on ChatGPT)
 ```python
 import collections
+import collections
 class Solution(object):
     def fourSumCount(self, nums1, nums2, nums3, nums4):
         """
@@ -54,7 +55,7 @@ class Solution(object):
         for num3 in nums3:
             for num4 in nums4:
                 residual = 0-(num3+num4)
-                if residual in sum_dict.keys():
-                    ans += sum_dict[residual]
+                # if residual in sum_dict.keys():
+                ans += sum_dict[residual]
         return ans
 ```
