@@ -34,15 +34,16 @@ class Solution(object):
         :type k: int
         :rtype: List[int]
         """
+        # cnt = Counter(nums)
+        # pq = []
+        # for key, value in cnt.items():
+        #     heapq.heappush(pq, (-value, key))
+        # ans = []
+        # for i in range(k):
+        #     ct, val = heapq.heappop(pq)
+        #     ans.append(val)
+        # return ans
         cnt = Counter(nums)
-        pq = []
-        for key, value in cnt.items():
-            heapq.heappush(pq, (-value, key))
-        ans = []
-        for i in range(k):
-            ct, val = heapq.heappop(pq)
-            ans.append(val)
-        return ans
-
+        return sorted(cnt, key=cnt.get, reverse=True)[:k]
         
 ```
