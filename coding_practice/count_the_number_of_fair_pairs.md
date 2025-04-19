@@ -1,0 +1,63 @@
+Location: https://leetcode.com/problems/count-the-number-of-fair-pairs/description/?envType=daily-question&envId=2025-04-19
+# Question
+Given a 0-indexed integer array nums of size n and two integers lower and upper, return the number of fair pairs.
+
+A pair (i, j) is fair if:
+
+- 0 <= i < j < n, and
+- lower <= nums[i] + nums[j] <= upper
+# Example
+
+## Example 1:
+
+Input: nums = [0,1,7,4,4,5], lower = 3, upper = 6
+
+Output: 6
+
+Explanation: There are 6 fair pairs: (0,3), (0,4), (0,5), (1,3), (1,4), and (1,5).
+
+## Example 2:
+
+Input: nums = [1,7,9,2,5], lower = 11, upper = 11
+
+Output: 1
+
+Explanation: There is a single fair pair: (2,3).
+
+## Constraints:
+
+1 <= nums.length <= 105\
+nums.length == n\
+-109 <= nums[i] <= 109\
+-109 <= lower <= upper <= 109
+ 
+
+# My solution (follows instructions on solutions)
+```python
+class Solution(object):
+    def countFairPairs(self, nums, lower, upper):
+        """
+        :type nums: List[int]
+        :type lower: int
+        :type upper: int
+        :rtype: int
+        """
+        ans = 0
+        # for i in range(len(nums)):
+        #     for j in range(i+1, len(nums)):
+        #         if nums[i]+nums[j]>=lower and nums[i]+nums[j]<=upper:
+        #             # print(i)
+        #             # print(j)
+        #             ans += 1
+        # return ans
+        nums = sorted(nums)
+        for i in range(0 , len(nums)-1):
+            l = lower - nums[i]
+            r = upper - nums[i]
+            left = bisect_left(nums, l, i+1)
+            right = bisect_right(nums, r, i+1)
+            if left < right:
+                ans += right - left 
+        return ans
+       
+```
