@@ -60,6 +60,7 @@ else:
             current.next = current.next.next
             break
         current = current.next
+return head
 ```
 
 ### Delete at Position
@@ -74,4 +75,5 @@ else:
         current = current.next
     if current.next is not None:
         current.next = current.next.next
+return head
 ```
