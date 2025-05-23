@@ -31,7 +31,7 @@ Explanation: It is the substring "abc" four times or the substring "abcabc" twic
 1 <= s.length <= 104\
 s consists of lowercase English letters.
 
-# My solution 
+# My solution (follow instructions)
 ```python
 class Solution(object):
     def repeatedSubstringPattern(self, s):
@@ -39,26 +39,33 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        curr = ""
-        starting = 0
-        while starting < len(s):
-            if curr and s[starting] == curr[0]:
-                length = len(curr)
-                if len(s)%length == 0:
-                    check_=True
-                    for ind in range(0, len(s), length):
-                        if s[ind:ind+length] != curr:
-                            curr += s[starting]
-                            starting += 1
-                            check_ = False
-                            break
-                    if check_:
-                        return True
-                else:
-                    curr += s[starting]
-                    starting += 1
-            else:
-                curr += s[starting]
-                starting += 1
+        # curr = ""
+        # starting = 0
+        # while starting < len(s):
+        #     if curr and s[starting] == curr[0]:
+        #         length = len(curr)
+        #         if len(s)%length == 0:
+        #             check_=True
+        #             for ind in range(0, len(s), length):
+        #                 if s[ind:ind+length] != curr:
+        #                     curr += s[starting]
+        #                     starting += 1
+        #                     check_ = False
+        #                     break
+        #             if check_:
+        #                 return True
+        #         else:
+        #             curr += s[starting]
+        #             starting += 1
+        #     else:
+        #         curr += s[starting]
+        #         starting += 1
+        # return False
+        n = len(s)
+        for l in range(1, n//2+1):
+            if n%l == 0:
+                curr = s[:l]
+                if s == curr * (n//l):
+                    return True
         return False
 ```
