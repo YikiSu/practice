@@ -24,33 +24,19 @@ class Solution(object):
         :type s: str
         :rtype: str
         """
-        res = ""
-        starting = 0
-        ending = len(s)-1
-        # if len(s)==1:
-        #     return s
-        while starting <= ending:
-            if s[starting].lower() in ['a', 'e', 'i', 'o', 'u'] and s[ending].lower() in ['a', 'e', 'i', 'o', 'u']:
-                if starting == ending:
-                    res = res[:starting]+s[starting]+res[starting:]
-                else:
-                    res = res[:starting]+s[ending]+s[starting]+res[starting:]
-                starting += 1
-                ending -= 1
-            elif s[starting].lower() in ['a', 'e', 'i', 'o', 'u']:
-                res = res[:starting]+s[ending]+res[starting:]
-                ending -= 1
-            elif s[ending].lower() in ['a', 'e', 'i', 'o', 'u']:
-                res = res[:starting]+s[starting]+res[starting:]
-                starting += 1
-            else:
-                if starting == ending:
-                    res = res[:starting]+s[starting]+res[starting:]
-                else:
-                    res = res[:starting]+s[starting]+s[ending]+res[starting:]
-                starting += 1
-                ending -= 1
-        return res
+        vowels = 'aeiouAEIOU'
+        ans = [st for st in s]
+        ind = []
+        v = []
+        for i, st in enumerate(s):
+            if st in vowels:
+                ind.append(i)
+                v.append(st)
+        v = v[::-1]
+        for p, i in enumerate(ind):
+            ans[i] = v[p]
+        return "".join(ans)
+
 ```
 
 # Fastest solution
