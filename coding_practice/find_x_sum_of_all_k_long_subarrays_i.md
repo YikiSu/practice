@@ -70,3 +70,25 @@ class Solution(object):
             ans.append(curr)
         return ans
 ```
+
+## Second try
+```python
+import collections
+class Solution(object):
+    def findXSum(self, nums, k, x):
+        """
+        :type nums: List[int]
+        :type k: int
+        :type x: int
+        :rtype: List[int]
+        """
+        ans = []
+        for i in range(len(nums)-k+1):
+            cnt = collections.Counter(nums[i:i+k])
+            sorted_cnt = sorted(cnt.items(), key=lambda v:(v[1], v[0]), reverse=True)[:x]
+            # print(sorted_cnt)
+            curr = sum([a*b for a,b in sorted_cnt])
+            ans.append(curr)
+        return ans
+
+```
